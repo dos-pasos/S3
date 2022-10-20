@@ -33,6 +33,11 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   letter-spacing: 2px;
 }
 .cabecera-logo{display:flex;justify-content:center;align-items: center;}
+.cabecera-logo{
+  height: 60vh;
+}
+
+.cabecera-img{margin-right: 15px;}
 
 
 @media screen and (max-width:600px){
