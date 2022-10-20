@@ -27,6 +27,9 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   Se puede añadir paddins y margins, y otros espacios.
   Son dependientes del html.
 */
+
+.cabecera-logo{display:flex;justify-content:center;align-items: center;}
+
 @media screen and (max-width:600px){
   .cabecera{font-size: 16px;}
 }
