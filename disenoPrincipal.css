@@ -30,6 +30,7 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 .cabecera-texto{
   font-family: 'Lato';
   font-weight: 300;
+  letter-spacing: 2px;
 }
 .cabecera-logo{display:flex;justify-content:center;align-items: center;}
 
