@@ -34,10 +34,17 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 }
 .cabecera-logo{display:flex;justify-content:center;align-items: center;}
 .cabecera-logo{
+  width: 100%;
   height: 60vh;
 }
 
 .cabecera-img{margin-right: 15px;}
+
+.cabecera-ondas{
+  width:100%;
+  height:25vh; 
+  min-height: 100px;
+  }
 
 
 @media screen and (max-width:600px){
@@ -49,3 +56,4 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   .cabecera{font-size: 24px;}
   .cabecera-texto{font-size: 48px;}
 }
+
